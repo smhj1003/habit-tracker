@@ -33,8 +33,9 @@ class Habits extends Component {
                         onIncrement = {this.handleIncrement}
                         onDecrement = {this.handleDecrement}
                         onDelete = {this.handleDelete}/>
-                ))}
+                                        ))}
             </ul>
+            <button className="habits-reset" onClick={this.props.onReset}>ResetAll</button>
         </>
         );
     }

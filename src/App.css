@@ -13,6 +13,21 @@ button {
   background-color: blanchedalmond;
 }
 
+.add-input {
+  font-size: 2rem;
+}
+
+.add-input {
+  margin-right: 0.2rem;
+}
+
+.add-button {
+  height: 100%;
+  font-size: 1.5rem;
+  padding: 0.3em 0.5em;
+  background-color: green;
+  color:  white;
+}
 .navbar-logo{
   color: green;
   margin-right: 0.5em;
@@ -70,4 +85,11 @@ button {
   font-size: 2rem;
   vertical-align: baseline;
   color: darkred;
+}
+
+.habit-reset {
+  font-size: 1.5rem;
+  padding: 0.2em 1em;
+  background-color: green;
+  color: white;
 }
